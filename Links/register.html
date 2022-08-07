@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<title>Friend's World</title>
+		<link rel="StyleSheet" href="../Css/fw.css">
+		<script language="JavaScript">
+			function display(name)
+			{
+				if(name=="")
+					alert("Hello Stranger");
+				else
+					alert("Hello "+name);
+			}
+		</script>
+	</head>
+	<body><div class="fixed">
+			<a href="chat.html"><img src="../Images/chat1.png"></a>
+		</div>
+	<div id="page">
+		<div id="container">
+			<div id="header">
+				<div id="left_header">
+					<a href="../home.html"><img src="../Logo/logo5.gif"></a>
+				</div>
+				<div id="right_header">
+					<a href="../home.html">About</a>
+					<a href="features.html">Features</a>
+					<a href="services.html">Services</a>
+					<a href="problems.html">Problems We Fix</a>
+					<a href="contact.html">Contact Us</a>
+				</div>
+			</div>
+			<div id="bottom"><marquee behavior="alternate" direction="right" onmouseover="stop()" onmouseout="start()" scrollamount="5">
+				Welcome to Friend's World &reg . A one stop solution to all your problems.</marquee>
+			</div>
+		</div>
+		<div id="r_container1">
+			<div id="r_containers">
+				<div id="r_container">
+					<center><br><br>
+						<table border=0 cellpadding="4px" cellspacing="0px"><form method="get" action=##>
+						<tr><th colspan=2><h1><br>Login</h1></th></tr>
+						<tr><th>Username</th><td><input type="text" placeholder="Username"></td></tr>
+						<tr><th>Password</th><td><input type="password" placeholder="Password"></td></tr>
+						<tr><th colspan=2>
+							<input type="submit" value="Submit">
+							<input type="reset" value="Reset"></th></form>
+						</table>
+					</center>
+				</div>
+				<div id="r_container">
+					<center>
+						<table border=0 cellpadding="4px" cellspacing="0px"><form name="signup" method="get" action=##>
+						<tr><th colspan=2><h1><br>Sign Up</h1></th></tr>
+						<tr><th>Name</th><td><input type="text" placeholder="Name" name="name"></td></tr>
+						<tr><th>Username</th><td><input type="text" placeholder="Username"></td></tr>
+						<tr><th>Password</th><td><input type="password" placeholder="Password"></td></tr>
+						<tr><th>Confirm Password</th><td><input type="password" placeholder="Confirm Password"></td></tr>
+						<tr><th>E-mail</th><td><input type="email" placeholder="E-mail"></td></tr>
+						<tr><th>Confirm E-mail</th><td><input type="email" placeholder="Confirm E-mail"></td></tr>
+						<tr><th colspan=2>
+							<input type="submit" value="Sign Up" onclick="display(document.signup.name.value)">
+							<input type="reset" value="Reset"></th></form>				
+						</table>
+					</center>
+				</div>
+			</div>
+		</div>
+		<div id="footer"><center>Copyright &copy : Ashutosh</center></div></div>
+	</body>
+</html>

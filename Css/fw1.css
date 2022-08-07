@@ -1,0 +1,215 @@
+body
+{
+	width:100%;
+	margin:auto;
+	height: 100%;
+    overflow: auto;
+	overflow-y: scroll;
+	overflow-x: scroll;
+
+}
+
+html 
+{
+    overflow: hidden;
+}
+
+#main_container
+{
+	display:block;
+	width:100%;
+}
+
+#container
+{
+	background:url('back5.jpg');
+	background-position:bottom;
+	border-radius:10px;width:100%;
+}
+
+#header
+{
+	height:100px;width:100%;
+}
+
+#left_header
+{
+	float:left;
+	//padding:20px;
+}
+
+
+
+#right_header
+{
+	float:right;
+	font-size:20px;
+	//padding:15px;
+	//margin:15px 0 0 0;
+	line-height:30px;
+}
+
+
+
+
+
+
+
+#bottom
+{
+	color:white;
+	//margin-top:-18px;
+	height:42px;
+	background:url('back5.jpg');
+	background-position:bottom;
+	font-size:15px;
+	font-family:Comic Sans MS;width:100%;
+}
+
+#container1
+{
+	width:100%;
+	background:url('back4.jpg');
+	border-radius:10px;
+	//margin:10px 0 0 0;
+}
+
+#containers
+{
+	width:100%;
+	height:100%;
+	border-radius:10px;
+}
+
+#left_container
+{
+	background:url('ccback.jpg');
+	background-position:bottom;
+	width:30%;
+	float:left;
+	color:black;
+	font-size:20px;
+	border-radius:10px;
+	//margin:30px 10px 10px 22px;
+	font-weight:bold;
+	//padding:10px;
+	opacity:0.7;
+}
+
+
+
+#right_container
+{
+	background:url('ccback.jpg');
+	background-position:bottom;
+	width:62.2%;
+	float:left;
+	color:black;
+	font-size:18px;
+	border-radius:10px;
+	//margin:30px 10px 10px 10px;
+	font-weight:bold;
+	//padding:10px;
+	line-height:20px;
+	opacity:0.7;
+}
+
+
+
+
+
+
+#bottom_container
+{
+	float:left;
+	//margin-top:-100px;
+	//margin-left:20px;
+	//padding:10px;
+}
+
+
+
+
+
+#a_container1
+{
+	width:100%;
+	background:url('full.jpg');
+	border-radius:10px;
+	//margin-top:-20px;
+}
+
+#a_containers
+{
+	width:100%;
+	height:660px;
+	border:0px solid #0054FF;
+	border-radius:10px;
+}
+
+#a_bottom_container
+{
+	width:100%;
+	//margin:40px 0 0 30px;
+}
+
+
+
+
+#d_container1
+{
+	width:100%;
+	background:url('back5.jpg');
+	border-radius:10px;
+	//margin-top:-15px;
+}
+
+#d_containers
+{
+	width:100%;
+	height:380px;
+	border-radius:10px;
+}
+
+
+
+#d_left_container
+{
+	background:url('dash.png');
+	width:19.6%;
+	float:left;
+	color:white;
+	font-size:20px;
+	border-radius:10px;
+	//margin:-10px 14px 20px 25px;
+	font-weight:bold;
+	//padding:15px;
+	text-align:center;
+	line-height:25px;
+}
+
+
+#cc_container1
+{
+	background:url('back10.jpg');width:100%;
+	background-position:center;
+	border-radius:10px;
+	//margin-top:-15px;
+}
+
+#cc_containers
+{
+	height:620px;width:100%;
+	border-radius:10px;
+}
+
+
+
+#cc_container
+{
+	width:94%;
+	float:left;
+	border-radius:20px;
+	//margin:-10px 15px 10px 25px;
+	//padding:15px;
+}
